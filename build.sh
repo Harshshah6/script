@@ -11,6 +11,9 @@ git clone https://github.com/xiaomi-msm8953-devs/android_vendor_fingerprint_open
 
 source build/envsetup.sh
 
+export BUILD_USERNAME=HarshShah
+export BUILD_HOSTNAME=crave
+
 export RISING_MAINTAINER="Harsh Shah"
 export RISING_PACKAGE_TYPE := "VANILLA_AOSP"
 export TARGET_ENABLE_BLUR := true
