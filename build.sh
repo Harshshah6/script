@@ -18,5 +18,8 @@ export RISING_MAINTAINER="Harsh Shah"
 export RISING_PACKAGE_TYPE := "VANILLA_AOSP"
 export TARGET_ENABLE_BLUR := true
 
+# For Clean Build
+make installclean
+
 riseup ysl userdebug
 rise b
