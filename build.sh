@@ -1,6 +1,13 @@
 sudo apt install git-lfs
 git lfs install
-repo init --depth=1 -u https://github.com/RisingTechOSS/android -b fourteen --git-lfs
+rm -rf vendor/gmsrm -rf .repo/projects/vendor/gms.git
+rm -rf .repo/project-objects/*/android_vendor_gms.git
+
+repo init --depth=1  -u https://github.com/RisingTechOSS/android -b fourteen --git-lfs
+
+# for SSH
+repo init --depth=1  -u git@github.com:RisingTechOSS/android.git -b fourteen --git-lfs
+
 rm -rf .repo/local_manifests
 git clone https://github.com/Harshshah6/local_manifests --depth 1 -b main .repo/local_manifests
 /opt/crave/resync.sh
