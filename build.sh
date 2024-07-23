@@ -1,9 +1,6 @@
 sudo apt install git-lfs
 git lfs install
 
-rm -rf vendor/gmsrm -rf .repo/projects/vendor/gms.git
-rm -rf .repo/project-objects/*/android_vendor_gms.git
-
 repo init --depth=1  -u https://github.com/RisingTechOSS/android -b fourteen --git-lfs
 
 rm -rf .repo/local_manifests
@@ -19,6 +16,9 @@ source build/envsetup.sh
 
 export BUILD_USERNAME=HarshShah
 export BUILD_HOSTNAME=crave
+export RISING_CHIPSET="Snapdragon 625"
+export RISING_MAINTAINER="LEGENDARY STREAMER"
+export TARGET_ENABLE_BLUR := true
 
 riseup ysl userdebug
 rise b
