@@ -16,9 +16,6 @@ source build/envsetup.sh
 
 export BUILD_USERNAME=HarshShah
 export BUILD_HOSTNAME=crave
-export RISING_CHIPSET="Snapdragon 625"
-export RISING_MAINTAINER="LEGENDARY STREAMER"
-export TARGET_ENABLE_BLUR := true
 
 riseup ysl userdebug
 rise b
