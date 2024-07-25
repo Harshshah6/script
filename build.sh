@@ -18,4 +18,6 @@ export BUILD_USERNAME=HarshShah
 export BUILD_HOSTNAME=crave
 
 riseup ysl userdebug
+rm -rf out/
+m clean
 rise b
