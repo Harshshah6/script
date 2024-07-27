@@ -18,4 +18,5 @@ export BUILD_USERNAME=HarshShah
 export BUILD_HOSTNAME=crave
 
 riseup ysl userdebug
+rm -rf vendor/lineage
 rise b
