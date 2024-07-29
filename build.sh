@@ -6,7 +6,7 @@ repo init --depth=1  -u https://github.com/RisingTechOSS/android -b fourteen --g
 rm -rf .repo/local_manifests
 git clone https://github.com/Harshshah6/local_manifests --depth 1 -b main .repo/local_manifests
 
-rm -rf prebuilts/clang/host/linux-x86/
+# rm -rf prebuilts/clang/host/linux-x86/
 
 /opt/crave/resync.sh
 
