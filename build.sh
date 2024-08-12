@@ -12,7 +12,7 @@ sudo rm -rf vendor/fingerprint/opensource/interfaces
 git clone https://github.com/xiaomi-msm8953-devs/android_vendor_fingerprint_opensource_interfaces vendor/fingerprint/opensource/interfaces
 
 # Set up build environment
-export BUILD_USERNAME=LEGENDARY STREAMER
+export BUILD_USERNAME=HarshShah
 export BUILD_HOSTNAME=crave
 source build/envsetup.sh
 
