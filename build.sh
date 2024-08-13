@@ -17,5 +17,5 @@ export BUILD_HOSTNAME=crave
 source build/envsetup.sh
 
 riseup ysl userdebug
-gk -f
+#gk -f
 rise sb
