@@ -18,4 +18,5 @@ source build/envsetup.sh
 
 riseup ysl userdebug
 #gk -f
-rise sb
+#rise sb
+rise b
