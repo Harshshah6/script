@@ -3,7 +3,7 @@ git lfs install
 repo init -u https://github.com/DerpFest-AOSP/manifest -b 14 --git-lfs
 
 rm -rf .repo/local_manifests
-git clone https://github.com/Harshshah6/local_manifests.git --depth 1 -b main .repo/local_manifests
+git clone https://github.com/Harshshah6/local_manifests.git --depth 1 -b derp .repo/local_manifests
 
 /opt/crave/resync.sh
 
