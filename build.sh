@@ -1,6 +1,6 @@
 sudo apt install git-lfs
 git lfs install
-repo init -u https://github.com/RisingTechOSS/android -b fourteen --git-lfs
+repo init -u https://github.com/DerpFest-AOSP/manifest -b 14 --git-lfs
 
 rm -rf .repo/local_manifests
 git clone https://github.com/Harshshah6/local_manifests.git --depth 1 -b main .repo/local_manifests
@@ -14,9 +14,8 @@ git clone https://github.com/xiaomi-msm8953-devs/android_vendor_fingerprint_open
 # Set up build environment
 export BUILD_USERNAME=HarshShah
 export BUILD_HOSTNAME=crave
+
 source build/envsetup.sh
 
-riseup ysl userdebug
-#gk -f
-#rise sb
-rise b
+lunch derp_ysl-userdebug
+mka derp
