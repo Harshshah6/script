@@ -17,8 +17,5 @@ export BUILD_HOSTNAME=crave
 
 source build/envsetup.sh
 
-rm -rf out
-make clean
-
 lunch derp_ysl-userdebug
 mka derp
